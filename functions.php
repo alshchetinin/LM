@@ -54,7 +54,11 @@ function wordpressify_widgets() {
 add_action( 'widgets_init', 'wordpressify_widgets' );
 if( function_exists('acf_add_options_page') ) {
 	
-	acf_add_options_page();
+	acf_add_options_page(array(
+            'page_title'    => __('Настройки сайта'),
+            'menu_title'    => __('Настройки сайта'),
+            'menu_slug'     => 'theme-general-settings'
+        ));
 	
 }
 
