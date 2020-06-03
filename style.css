@@ -1240,7 +1240,15 @@ ymaps .ymaps-2-1-75-ground-pane ymaps {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-        grid-template-areas: ". wp wp wp wp wp wp wp wp wp wp ."; }
+        grid-template-areas: ". wp wp wp wp wp wp wp wp wp wp .";
+    position: relative; }
+    .slider_item_img {
+      height: 100%;
+      width: 100%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      position: absolute;
+      top: 0; }
     .slider_item_wrapper {
       -ms-grid-row: 1;
       -ms-grid-column: 2;
@@ -1250,7 +1258,8 @@ ymaps .ymaps-2-1-75-ground-pane ymaps {
       position: relative;
       -webkit-transition: all .3s ease;
       -o-transition: all .3s ease;
-      transition: all .3s ease; }
+      transition: all .3s ease;
+      z-index: 1; }
       .slider_item_wrapper:hover {
         opacity: 0.8; }
       .slider_item_wrapper a {
@@ -1578,14 +1587,22 @@ ymaps .ymaps-2-1-75-ground-pane ymaps {
       .what_we_do-name {
         -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr); } }
-    .what_we_do-name p {
+    .what_we_do-name p, .what_we_do-name a {
       padding: 0px 0px 30px;
       font-size: 24px;
       line-height: 29px; }
       @media screen and (max-width: 720px) {
-        .what_we_do-name p {
+        .what_we_do-name p, .what_we_do-name a {
           font-size: 16px;
           line-height: 23px; } }
+    .what_we_do-name a {
+      text-decoration: none;
+      color: #000;
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+      .what_we_do-name a:hover {
+        opacity: 0.5; }
 
 .home .title-page {
   display: none; }
