@@ -133,7 +133,7 @@ if( !empty( $link ) ): ?>
          <p>Заполните поля справа, и мы с вами обязательно свяжемся</p>
       </div>
       <div class="main-form__contact">
-         <?php echo do_shortcode('[contact-form-7 id="716" title="Получите бесплатную консультацию_copy"]'); ?>
+         <?php echo do_shortcode('[contact-form-7 id="722" title="Получите бесплатную консультацию_copy"]'); ?>
       </div>
       <div class="line"></div>
    </div>
