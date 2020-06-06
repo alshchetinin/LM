@@ -31,7 +31,7 @@ Template Name: Проекты
       <div class="project_content_tab <?php if ( $key == 0 ) echo 'project_content_tab-active'; ?>"
          id="<?php echo $product_cat->slug; ?>" data-tab="<?php echo $product_cat->slug ; ?>">
          <?php
-				$mypost = array( 'post_type' => 'project', 'category' => $product_cat->term_id );
+				$mypost = array( 'post_type' => 'project','numberposts' => -1, 'category' => $product_cat->term_id );
 				$products = get_posts( $mypost );
 				?>
          <?php foreach ( $products as $post ) { setup_postdata( $post ); 
