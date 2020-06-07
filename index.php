@@ -55,7 +55,7 @@
          <a href="/portfolio/#design">Фирменные стили</a>
          <a href="/portfolio/#design">Дизайн упаковки</a>
          <a href="/portfolio/#marketing-and-advertising">Маркетинговые стратегии</a>
-         <a href="/portfolio/#marketing-and-advertising">Рекламные компании</a>
+         <a href="/portfolio/#marketing-and-advertising">Рекламные кампании</a>
          <a href="/portfolio/#sales">Развитие маркетинга и&nbsp;продаж</a>
          <a href="/portfolio/#it-marketing">IT в&nbsp;маркетинге </a>
 
