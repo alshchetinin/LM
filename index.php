@@ -99,7 +99,7 @@ if( !empty( $link ) ): ?>
       <div class="favorite-works">
          <a href="/portfolio"></a>
          <div>
-            <h3 class="title">Избранные<br>работы</h3>
+            <h3 class="title">Избранные<br />работы</h3>
             <img src="<?php echo get_template_directory_uri() ?>/img/arrow_slider.svg" alt="arrow">
          </div>
 
