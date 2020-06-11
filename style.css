@@ -2256,7 +2256,8 @@ ymaps .ymaps-2-1-75-ground-pane ymaps {
       grid-template-areas: 'top top top top top top top top top top' 'img img img img img text text text text text';
   grid-column-gap: 30px;
   border-bottom: 1px solid #000;
-  border-top: 1px solid #000; }
+  border-top: 1px solid #000;
+  margin-bottom: 100px; }
 
 .blog-single > .content-blog {
   -ms-grid-row: 2;
