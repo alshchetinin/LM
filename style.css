@@ -2395,7 +2395,8 @@ ymaps .ymaps-2-1-75-ground-pane ymaps {
     -ms-grid-row: 1;
     -ms-grid-column: 7;
     -ms-grid-column-span: 5;
-    grid-area: text; }
+    grid-area: text;
+    padding-bottom: 40px; }
   @media screen and (max-width: 720px){
     .main .section_img {
     -ms-grid-row: 3;
