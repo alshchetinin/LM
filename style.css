@@ -2387,10 +2387,8 @@ ymaps .ymaps-2-1-75-ground-pane ymaps {
     .content-blog__img img {
       display: block;
       max-width: 100%;
-      height: auto; }
-      @media screen and (max-width: 720px) {
-        .content-blog__img img {
-          margin-bottom: 37px; } }
+      height: auto;
+      margin-bottom: 37px; }
   .content-blog__text {
     -ms-grid-row: 1;
     -ms-grid-column: 7;
