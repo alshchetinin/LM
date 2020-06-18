@@ -20,7 +20,7 @@ Template Name: Блог
 
          <article class="blog-item">
             <a href="<?php the_permalink(); ?>"></a>
-            <div class="blog-item__date"><?php the_date(); ?></div>
+            <div class="blog-item__date"><?php the_time('d.m.Y'); ?></div>
             <div class="blog-item__title"><?php the_title(); ?></div>
             <div class="blog-item__arrow"><img src="<?php echo get_template_directory_uri()?>/img/arrow-blog.svg"
                   alt="">

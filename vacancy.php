@@ -28,7 +28,7 @@ Template Name: Вакансии
 
 
 
-               <div class="vacancyPage-reason__item">
+               <div class="vacancyPage-reason__item mobile-none">
                   <div class="headline_wrapper">
                      <h3>КОМФОРТ-ОФИСЫ</h3>
                   </div>
@@ -46,13 +46,13 @@ Template Name: Вакансии
                </div>
                <div class="vacancyPage-reason__item">
                   <div class="headline_wrapper">
-                     <h3>ПОСТОЯННОЕ РАЗВИТИЕ</h3>
+                     <h3>ПОСТОЯННОЕ<br>РАЗВИТИЕ</h3>
                   </div>
                   <p><span class="red">— </span>Каждый новый сотрудник проходит процесс интеграции: на первых этапах
                      работы с ним активно
                      взаимодействует куратор и HR-менеджер.
-                     <br>
-                     <span class="red">— </span>У каждого сотрудника есть индивидуальный план развития.<br>
+                     <br><br>
+                     <span class="red">— </span>У каждого сотрудника есть индивидуальный план развития.<br><br>
                      <span class="red">— </span>В агентстве есть возможность проходить обучение.</p>
                </div>
 
@@ -95,19 +95,30 @@ Template Name: Вакансии
                   Отвечаем на вопросы <br>по трудоустройству
                </div>
                <div class="content">
-                  <div class="left">
+                  <div class="left no-mg">
                      <p>Вы можете позвонить HR-менеджеру и задать вопрос по устройству на работу или стажировке в
                         агентстве</p>
                   </div>
 
                   <div class="right">
-                     <p>Отправьте резюме</p>
                      <a href="tel:+79581110667">+7 958 111-06-67 </a>
                   </div>
                </div>
             </div>
          </div>
          <div class="vacancyPage-photo">
+            <div class="vacancyPage-reason__items vacancyPage-reason__items_mobile">
+
+
+
+               <div class="vacancyPage-reason__item">
+                  <div class="headline_wrapper">
+                     <h3>КОМФОРТ-ОФИСЫ</h3>
+                  </div>
+                  <p>Мы стремимся создать комфортные условия для работы всех сотрудников. Главный офис агентства
+                     работает в центре Тюмени, второй — в центре Москвы.</p>
+               </div>
+            </div>
             <figure>
                <p><img class="img-responsive" src="<?php echo get_template_directory_uri()?>/img/v1.jpg" alt=""></p>
                <figcaption>Тюмень</figcaption>

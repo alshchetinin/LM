@@ -6,13 +6,19 @@ function wordpressify_resources() {
 	wp_enqueue_script( 'header_js', get_template_directory_uri() . '/js/header-bundle.js', null, 1.0, false );
 	wp_enqueue_script( 'footer_js', get_template_directory_uri() . '/js/footer-bundle.js', null, 1.0, true );
 }
-
+add_action( 'enqueue_block_editor_assets', 'guttenberEditor' );
 add_action( 'wp_enqueue_scripts', 'wordpressify_resources' );
 
 // Customize excerpt word count length
 function custom_excerpt_length() {
 	return 22;
 }
+
+function guttenberEditor() {
+	
+	wp_enqueue_style( 'guttenberEditor', get_theme_file_uri( '/style-editor.css' ), false );
+}
+
 
 add_filter( 'excerpt_length', 'custom_excerpt_length' );
 
